@@ -1,0 +1,17 @@
+.table {
+    padding: 20px;
+}
+
+.button-home {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    color: #000000DE;
+    font-size: 14px;
+    margin: auto 0;
+    padding: 10px 10px;
+    border-width: 1px;
+    border-color: rgba(128, 128, 128, 0.705);
+    border-radius: 50px;
+    border-style: solid;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: inherit;
+}

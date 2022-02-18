@@ -1,0 +1,23 @@
+.container {
+    padding: 20px;
+}
+
+.balance {
+    padding-bottom: 20px;
+}
+
+.formgroup {
+    border: 1px solid #000000bd;
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.transfertoken {
+    display: flex;
+}
+
+.tokenfieldset {
+    flex: 1;
+    border: 0;
+}

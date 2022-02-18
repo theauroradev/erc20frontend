@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: 'Bodoni Moda', serif;;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #000000d0;
+
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #000000DE;
+}
