@@ -127,7 +127,7 @@ export default function Token() {
                                     <input type={"text"} className="tokeninput" name="transferamount" onChange={handleState}></input>
                                 </fieldset>
                             </div>
-                            <button type="submit" className="submitbutton" onClick={handleTransfer}>Transfer Tokens</button>
+                            <button type="submit" className="submitbutton submittokenbutton" onClick={handleTransfer}>Transfer Tokens</button>
                         </form>
                     </div>
                     {contract.minter ?
@@ -146,7 +146,7 @@ export default function Token() {
                                             <input type={"text"} className="tokeninput" name="mintamount" onChange={handleState}></input>
                                         </fieldset>
                                     </div>
-                                    <button type="submit" className="submitbutton" onClick={handleMint}>Mint Tokens</button>
+                                    <button type="submit" className="submitbutton submittokenbutton" onClick={handleMint}>Mint Tokens</button>
                                 </form>
                             </div>
                         </>: <></>
